@@ -1,0 +1,24 @@
+{
+  "id": "kin_proj_002",
+  "chapter": "Kinematics",
+  "subchapter": "Projectiles",
+  "difficulty": "high_school_ap",
+  "problem_text": "A projectile is launched from the top of a cliff of height \(h\) above the ground with initial speed \(v_0\) at angle \(\\theta\). Find the time until it hits the ground and the horizontal distance from the cliff base.",
+  "variables": ["v0", "θ", "h", "g", "t", "R"],
+  "latex_equations": [
+    "x(t)=v_0\\cos\\theta\\,t",
+    "y(t)=h+v_0\\sin\\theta\\,t-\\tfrac{1}{2}gt^2"
+  ],
+  "diagram_request": "Cliff of height h; launch at angle θ from (0,h); parabolic trajectory landing at ground level.",
+  "diagram_path": "../images/kin_proj_002.svg",
+  "concept_tags": ["projectile","elevated launch","quadratic root"],
+  "solution_steps": [
+    "Solve y(T)=0 using quadratic formula; take positive root.",
+    "Horizontal range is \(R=v_0\\cos\\theta\\,T\)."
+  ],
+  "common_mistakes": [
+    "Using the negative quadratic root",
+    "Forgetting +2gh term under square root"
+  ],
+  "license": "CC-BY-Internal"
+}
