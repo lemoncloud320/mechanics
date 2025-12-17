@@ -1,0 +1,24 @@
+{
+  "id": "kin_proj_004",
+  "chapter": "Kinematics",
+  "subchapter": "Projectiles",
+  "difficulty": "undergrad_intro",
+  "problem_text": "A ball is launched horizontally at speed \(v_0\) from a table of height \(h\). (a) Determine the time to hit the floor and the horizontal distance. (b) Show that the fall time is independent of \(v_0\).",
+  "variables": ["v0", "h", "g", "t", "R"],
+  "latex_equations": [
+    "x(t)=v_0 t",
+    "y(t)=h-\\tfrac{1}{2}gt^2"
+  ],
+  "diagram_request": "Horizontal launch from height h; straight horizontal velocity arrow; parabolic descent.",
+  "diagram_path": "../images/kin_proj_004.svg",
+  "concept_tags": ["horizontal launch","independence of vertical motion"],
+  "solution_steps": [
+    "Solve h - (1/2) g t^2 = 0 → t = sqrt(2h/g).",
+    "Range = v0 * t.",
+    "Time to fall depends only on h and g."
+  ],
+  "common_mistakes": [
+    "Incorrectly coupling horizontal and vertical motion"
+  ],
+  "license": "CC-BY-Internal"
+}
