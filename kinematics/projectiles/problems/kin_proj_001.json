@@ -1,0 +1,26 @@
+{
+  "id": "kin_proj_001",
+  "chapter": "Kinematics",
+  "subchapter": "Projectiles",
+  "difficulty": "high_school_intro",
+  "problem_text": "A projectile is launched from ground level with speed \(v_0\) at angle \(\\theta\) above the horizontal. Neglect air resistance. Derive expressions for (a) the time of flight, (b) the maximum height, and (c) the horizontal range.",
+  "variables": ["v0", "θ", "g", "t", "H", "R"],
+  "latex_equations": [
+    "x(t)=v_0\\cos\\theta\\,t",
+    "y(t)=v_0\\sin\\theta\\,t-\\tfrac{1}{2}gt^2"
+  ],
+  "diagram_request": "Parabolic trajectory launched from origin at angle θ; show initial velocity vector and components; mark maximum height and horizontal range.",
+  "diagram_path": "../images/kin_proj_001.svg",
+  "concept_tags": ["2D motion","projectile","range","time of flight","max height"],
+  "solution_steps": [
+    "Horizontal and vertical components: \(v_{0x}=v_0\\cos\\theta\), \(v_{0y}=v_0\\sin\\theta\).",
+    "Solve y(T)=0 to obtain time of flight \(T=2v_0\\sin\\theta/g\).",
+    "Maximum height: \(H=v_0^2\\sin^2\\theta/(2g)\).",
+    "Range: \(R=v_0^2\\sin(2\\theta)/g\)."
+  ],
+  "common_mistakes": [
+    "Using wrong sign for g",
+    "Confusing max-height time with total flight time"
+  ],
+  "license": "CC-BY-Internal"
+}
