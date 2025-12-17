@@ -1,0 +1,20 @@
+{
+  "chapter": "Kinematics",
+  "subchapter": "Projectiles",
+  "num_problems": 8,
+  "license": "CC-BY-Internal",
+  "diagram_format": "SVG (recommended)",
+  "fields": {
+    "id": "string",
+    "problem_text": "string",
+    "variables": "list of strings",
+    "latex_equations": "list of strings",
+    "diagram_request": "string",
+    "diagram_path": "string",
+    "concept_tags": "list of strings",
+    "solution_steps": "list of strings",
+    "common_mistakes": "list of strings",
+    "difficulty": "categorical",
+    "license": "string"
+  }
+}
