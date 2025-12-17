@@ -1,0 +1,24 @@
+{
+  "id": "kin_proj_007",
+  "chapter": "Kinematics",
+  "subchapter": "Projectiles",
+  "difficulty": "undergrad_challenging",
+  "problem_text": "A projectile must intersect a circular target of radius \(a\) centered at \((x_T, y_T)\). Derive the condition for intersection, assuming small \(a\).",
+  "variables": ["v0","θ","x_T","y_T","a","g"],
+  "latex_equations": [
+    "y(x)=x\\tan\\theta - \\frac{g x^2}{2 v_0^2\\cos^2\\theta}"
+  ],
+  "diagram_request": "Parabolic trajectory with small circular target at (x_T, y_T); show transverse deviation.",
+  "diagram_path": "../images/kin_proj_007.svg",
+  "concept_tags": ["targeting","approximation"],
+  "solution_steps": [
+    "Compute Δy = y(x_T) − y_T.",
+    "Intersection requires |Δy| ≤ a.",
+    "Linearize in θ if necessary for tuning solutions."
+  ],
+  "common_mistakes": [
+    "Ignoring tolerance a",
+    "Incorrect derivative when linearizing"
+  ],
+  "license": "CC-BY-Internal"
+}
